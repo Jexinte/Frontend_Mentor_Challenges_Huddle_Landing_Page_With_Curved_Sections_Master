@@ -16,6 +16,12 @@
 .flowingConversations {
   display: flex;
   gap: 2em;
+  margin-bottom: 23em;
+
+}
+
+.left {
+  width: 50%;
 }
 
 .left-illustration img {
@@ -38,6 +44,18 @@
 .right p {
   font-family: var(--openSans);
   font-weight: var(--400);
-  width: 505px;
+  width: 516px;
+}
+
+@media screen and (min-width:475px) and (max-width:992px) {
+  .flowingConversations {
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 1em;
+  }
+
+  .right p {
+   width: 100%;
+  }
 }
 </style>

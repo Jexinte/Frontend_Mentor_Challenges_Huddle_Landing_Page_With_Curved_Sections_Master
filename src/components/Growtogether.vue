@@ -126,22 +126,22 @@ font-family: var(--openSans);
 }
 }
 
-@media screen and (min-width:670px) and (max-width:992px){
+@media screen and (min-width:797px) and (max-width:992px){
   .growTogether::before {
       transform:translateY(-25%);
   }
 }
 
-@media screen and (min-width:490px) and (max-width:669px){
+@media screen and (min-width:533px) and (max-width:796px){
   .growTogether::before {
-      transform:translateY(-22%);
+      transform:translateY(-21%);
   }
 }
 
 
-@media screen and (min-width:475px) and (max-width:669px){
+@media screen and (min-width:475px) and (max-width:532px){
   .growTogether::before {
-      transform:translateY(-21%);
+      transform:translateY(-19%);
   }
 }
 

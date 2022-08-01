@@ -46,17 +46,28 @@
 <!-- FLOWING CONVERSATIONS -->
 
 <Flowing/>
+
+<!-- USERS -->
+
+<Users/>
+
+<!-- READYBUILD -->
+<Readybuild/>
 </template>
 
 <script>
 import Getstarted from "@/components/Getstarted.vue";
 import Wavepale from "@/components/Growtogether.vue";
 import Flowing from "@/components/Flowing.vue";
+import Users from "@/components/Users.vue"
+import Readybuild from "../components/Readybuild.vue"
 export default {
   components : {
     Getstarted,
     Wavepale,
-    Flowing
+    Flowing,
+    Users,
+    Readybuild
 }
 }
 </script>
