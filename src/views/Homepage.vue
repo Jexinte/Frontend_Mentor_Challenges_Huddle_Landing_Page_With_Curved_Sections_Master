@@ -42,14 +42,21 @@
 <!-- GROWTOGETHER -->
 
 <Wavepale/>
+
+<!-- FLOWING CONVERSATIONS -->
+
+<Flowing/>
 </template>
 
 <script>
 import Getstarted from "@/components/Getstarted.vue";
-import Wavepale from "@/components/Wavepale.vue";
+import Wavepale from "@/components/Growtogether.vue";
+import Flowing from "@/components/Flowing.vue";
 export default {
   components : {
-    Getstarted,Wavepale
-  }
+    Getstarted,
+    Wavepale,
+    Flowing
+}
 }
 </script>
