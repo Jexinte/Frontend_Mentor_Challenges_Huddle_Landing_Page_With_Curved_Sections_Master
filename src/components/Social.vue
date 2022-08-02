@@ -355,8 +355,6 @@ form {
     flex-direction: column;
     align-items: center;
     padding-top:6em;
-    position: relative;
-    z-index: 9999;
   }
 
 .social::before {
@@ -368,6 +366,8 @@ form {
   .right-social {
     order:-1;
     width: 100%;
+    position: relative;
+    z-index: 9999;
   }
 
   form {
