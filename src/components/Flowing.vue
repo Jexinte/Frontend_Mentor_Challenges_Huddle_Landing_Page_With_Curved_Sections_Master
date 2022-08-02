@@ -15,7 +15,7 @@
 
 .flowingConversations {
   display: flex;
-  gap: 2em;
+  gap: 4em;
   margin-bottom: 23em;
 
 }

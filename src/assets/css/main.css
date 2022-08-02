@@ -45,7 +45,7 @@ min-height: 100vh;
 align-items: center;
 justify-content: center;
 font-family: var(--openSans);
- background-color: lightgreen;  
+ /* background-color: lightgreen;    */
 }
 
 /* HEADER */
@@ -161,3 +161,9 @@ right: 1.6em;
 top:10px;
 }
 
+@media screen and (max-width:480px){
+  body{
+    display: none;
+  }
+
+}

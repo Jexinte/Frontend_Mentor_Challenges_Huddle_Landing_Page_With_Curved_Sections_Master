@@ -18,10 +18,11 @@
   display: flex;
   position: relative;
   padding-inline:2em;
-  gap:2em;
+  gap:4em;
   padding-top: 5em;
   padding-bottom: 5em;
-   background-color: var(--veryPaleBlue); 
+   background-color: var(--veryPaleBlue);
+    margin-bottom: 18em; 
 }
 
 .left-users {
@@ -127,7 +128,6 @@
   .users{
     flex-direction: column;
     text-align: center;
-    gap: 2em;
   }
 
   .left-users p {
@@ -147,32 +147,32 @@
 }
 }
 
-@media screen and (min-width:874px) and (max-width:992px) {
+@media screen and (min-width:865px) and (max-width:992px) {
    .users::before {
-     transform: translateY(-26%);
+     transform: translateY(-25%);
 }
 
 }
 
 
-@media screen and (min-width:766px) and (max-width:874px) {
-   .users::before {
-  transform: translateY(-25%);
-}
-
-
-}
-
-
-@media screen and (min-width:676px) and (max-width:765px) {
+@media screen and (min-width:753px) and (max-width:864px) {
    .users::before {
   transform: translateY(-24%);
 }
 
+
 }
 
 
- @media screen  and (min-width:578px) and (max-width:675px) {
+@media screen and (min-width:676px) and (max-width:753px) {
+   .users::before {
+  transform: translateY(-23%);
+}
+
+}
+
+
+ @media screen  and (min-width:638px) and (max-width:675px) {
    .users::before {
   transform: translateY(-22%);
 }
@@ -180,7 +180,7 @@
 } 
 
 
- @media screen  and (min-width:516px) and (max-width:674px) {
+ @media screen  and (min-width:570px) and (max-width:637px) {
    .users::before {
   transform: translateY(-21%);
 }
@@ -188,11 +188,24 @@
 } 
 
 
- @media screen  and (min-width:475px) and (max-width:515px) {
+ @media screen  and (min-width:513px) and (max-width:569px) {
    .users::before {
-  transform: translateY(-19.5%);
-}
-
+  transform: translateY(-20%);
 } 
+} 
+
+
+ @media screen  and (min-width:486px) and (max-width:512px) {
+   .users::before {
+  transform: translateY(-19%);
+} 
+} 
+
+ @media screen  and (min-width:475px) and (max-width:485px) {
+   .users::before {
+  transform: translateY(-18%);
+} 
+} 
+
 
 </style>

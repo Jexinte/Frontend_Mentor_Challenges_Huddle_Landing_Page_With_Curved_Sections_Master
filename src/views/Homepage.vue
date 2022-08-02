@@ -53,6 +53,9 @@
 
 <!-- READYBUILD -->
 <Readybuild/>
+
+<!-- SOCIAL -->
+<Social/>
 </template>
 
 <script>
@@ -61,13 +64,15 @@ import Wavepale from "@/components/Growtogether.vue";
 import Flowing from "@/components/Flowing.vue";
 import Users from "@/components/Users.vue"
 import Readybuild from "../components/Readybuild.vue"
+import Social from "../components/Social.vue"
 export default {
   components : {
     Getstarted,
     Wavepale,
     Flowing,
     Users,
-    Readybuild
+    Readybuild,
+    Social
 }
 }
 </script>

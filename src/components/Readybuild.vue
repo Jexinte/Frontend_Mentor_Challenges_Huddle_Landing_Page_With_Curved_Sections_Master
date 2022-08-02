@@ -13,7 +13,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap:2em
+  gap:2em;
+  margin-bottom: 15em;
 }
 
 .build h2 {
